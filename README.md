@@ -1,14 +1,14 @@
 # pocket-trainer
-Open terminal/powershell/command prompt then clone this repository
+~ Open terminal/powershell/command prompt then clone this repository
 
   git clone https://github.com/reevald/pocket-trainer.git
   cd pocket-trainer
   
-Install dependencies
+~ Install dependencies
   
   npm install
   
-Once the installation is done, you can run the app locally
+~ Once the installation is done, you can run the app locally
    
    npm run start-dev
    
