@@ -1,5 +1,4 @@
 # pocket-trainer
-
 Open terminal/powershell/command prompt then clone this repository
 
   git clone https://github.com/reevald/pocket-trainer.git
