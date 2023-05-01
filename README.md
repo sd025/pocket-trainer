@@ -1,7 +1,7 @@
 # pocket-trainer
 ~ Open terminal/powershell/command prompt then clone this repository
 
-  git clone https://github.com/reevald/pocket-trainer.git
+  git clone https://github.com/shubh042/pocket-trainer.git
   cd pocket-trainer
   
 ~ Install dependencies
