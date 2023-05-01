@@ -1,0 +1,48 @@
+{
+    "poseDetectorConfig": {
+      "model": "MoveNet",
+      "detectorConfig": {},
+      "estimationConfig": {}
+    },
+    "classifierConfig": {
+      "path": "./tfjs-model/bicyclecrunch/model.json",
+      "label": ["Bicycle Crunch","Other"]
+    },
+    "rulesCountConfig": {
+      "nameWorkout": "Bicycle Crunch",
+      "nameStage": ["Down", "Up"],
+      "pathImageStage": ["./img/iconmonstr-caret-down-circle-filled-64.png", "./img/iconmonstr-caret-up-circle-filled-64.png"],
+      "pathAudioStage": ["./audio/go-down-from-google-translate.webm", "./audio/go-up-from-google-translate.webm"],
+      "anglePoint": {
+        "6": {
+          "spouseIdx": [8, 12],
+          "rangeAngle": [
+            { "min": 90, "max": 0 },
+            { "min": 45, "max": 0 }
+          ]
+        },
+        "5": {
+          "spouseIdx": [7, 11],
+          "rangeAngle": [
+            { "min": 90, "max": 0 },
+            { "min": 45, "max": 0 }
+          ]
+        },
+        "13": {
+          "spouseIdx": [11, 15],
+          "rangeAngle": [
+            { "min": 150, "max": 180 },
+            { "min": 0, "max": 140 }  
+          ]
+        },
+        "14": {
+          "spouseIdx": [12, 16],
+          "rangeAngle": [
+            { "min": 0, "max": 140 },
+            { "min": 150, "max": 180 }
+          ]
+        }
+      }
+    }
+  }
+  
